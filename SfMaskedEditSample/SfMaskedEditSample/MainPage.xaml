@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SfMaskedEditSample"
+             xmlns:maskededit="clr-namespace:Syncfusion.XForms.MaskedEdit;assembly=Syncfusion.SfMaskedEdit.XForms"
+             x:Class="SfMaskedEditSample.MainPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="Date of Birth :"/>
+            <maskededit:SfMaskedEdit x:Name="MyMask" Mask="00/00/0000" Watermark="MM/DD/YYYY"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
